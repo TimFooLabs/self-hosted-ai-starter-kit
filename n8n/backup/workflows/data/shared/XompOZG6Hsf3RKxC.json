@@ -1,0 +1,8 @@
+{
+  "createdAt": "2024-08-30T06:56:50.708Z",
+  "updatedAt": "2024-08-30T06:56:50.708Z",
+  "id": "XompOZG6Hsf3RKxC",
+  "name": "Header Auth account",
+  "data": "U2FsdGVkX19njv8XkQEVDlSpRUpMdJan7HEGBva0/jYe8oqC8jPkfbEiCrnmnw5TdefIKXBDQDzaOhuWaQhPUA==",
+  "type": "httpHeaderAuth"
+}
