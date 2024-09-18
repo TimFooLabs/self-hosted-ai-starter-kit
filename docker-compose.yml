@@ -32,14 +32,14 @@ x-ollama: &service-ollama
     ports:
         - 11434:11434
     volumes:
-        - ollama_storage:/root/.ollama
+        - "C:\\Users\\User\\.ollama:/root/.ollama"
 
 x-init-ollama: &init-ollama
     image: ollama/ollama:latest
     networks: ["demo"]
     container_name: ollama-pull-llama
     volumes:
-        - ollama_storage:/root/.ollama
+        - "C:\\Users\\User\\.ollama:/root/.ollama"
     entrypoint: /bin/sh
     command:
         - "-c"
